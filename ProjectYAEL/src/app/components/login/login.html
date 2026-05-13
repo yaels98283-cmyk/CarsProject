@@ -1,0 +1,45 @@
+<div class="login-page">
+  <div class="card">
+    
+    <h2 class="title">RUTI AND YAEL CARS</h2>
+    <p class="subtitle">מערכת לניהול השכרת רכבים</p>
+
+    <div class="form-group" *ngIf="!isNewUser">
+      <label class="label">הזן תעודת זהות לכניסה</label>
+      <input 
+        type="number" 
+        [(ngModel)]="searchId" 
+        class="input-lg"
+      >
+      <button class="btn-main" (click)="checkIfExist()">
+        כניסה / בדיקת רישום
+      </button>
+    </div>
+
+    <div class="register-form" *ngIf="isNewUser">
+      <div class="alert-info"> התחבר בבקשה</div>
+
+      <label class="label">תעודת זהות (קבוע)</label>
+      <input 
+        type="number" 
+        [ngModel]="customer.Id" 
+        disabled 
+        class="disabled-input input-lg"
+      >
+
+      <input class="input-lg" type="text" [(ngModel)]="customer.firstName" placeholder="שם פרטי">
+      <input class="input-lg" type="text" [(ngModel)]="customer.lastName" placeholder="שם משפחה">
+      <input class="input-lg" type="email" [(ngModel)]="customer.email" placeholder="אימייל">
+      <input class="input-lg" type="text" [(ngModel)]="customer.address" placeholder="כתובת מגורים">
+
+      <button class="btn-success" (click)="onSubmitRegister()">
+        סיום הרשמה וכניסה
+      </button>
+
+      <button class="btn-link" (click)="isNewUser = false">
+        ← חזור
+      </button>
+    </div>
+
+  </div>
+</div>

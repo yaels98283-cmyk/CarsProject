@@ -1,0 +1,197 @@
+.container {
+  padding: 40px;
+  direction: rtl;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb, #fbc2eb, #fcd3a5, #b5ead7);
+  background-size: 400% 400%;
+  animation: pastelMove 12s ease infinite;
+}
+
+@keyframes pastelMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* כותרת */
+h2 {
+  text-align: center;
+  color: #2b2b2b;
+  margin-bottom: 50px;
+  font-size: 2.8rem;
+  text-shadow: 0 2px 12px rgba(255,255,255,0.7);
+  letter-spacing: 1px;
+}
+
+/* פילטר בר */
+.filter-bar {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(20px);
+
+  padding: 25px;
+  border-radius: 30px;
+
+  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+  margin-bottom: 45px;
+}
+
+.filter-bar select,
+.filter-bar input {
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+
+  font-size: 1rem;
+
+  background: rgba(255,255,255,0.75);
+}
+
+.filter-bar button {
+  padding: 16px 24px;
+  border-radius: 14px;
+  border: none;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: white;
+
+  transition: 0.3s;
+}
+
+.filter-bar button:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #ff6ec7, #ffa6c9);
+}
+
+/* גריד */
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* כרטיס רכב */
+.car-card {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(18px);
+
+  border-radius: 30px;
+  padding: 28px;
+
+  text-align: center;
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  transition: 0.35s;
+
+  border: 2px solid rgba(255,255,255,0.5);
+}
+
+.car-card:hover {
+  transform: translateY(-12px) scale(1.04);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.25);
+}
+
+/* כותרת כרטיס */
+.car-card h3 {
+  color: #ff4f93;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* טקסט */
+.car-card p {
+  color: #444;
+  margin: 8px 0;
+  font-size: 1.05rem;
+}
+
+/* מחיר */
+.price {
+  font-weight: bold;
+  color: #00c48c !important;
+  font-size: 1.5rem;
+  margin-top: 18px !important;
+}
+
+/* כפתור השכרה */
+.btn-rent {
+  background: linear-gradient(135deg, #84fab0, #8fd3f4);
+  color: white;
+
+  border: none;
+  padding: 16px 22px;
+
+  border-radius: 35px;
+
+  font-weight: bold;
+  font-size: 1rem;
+
+  cursor: pointer;
+  width: 100%;
+
+  margin-top: 18px;
+
+  transition: 0.3s;
+}
+
+.btn-rent:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+/* לייאאוט */
+.main-layout {
+  display: flex;
+  gap: 25px;
+  direction: rtl;
+  padding: 30px;
+}
+
+/* סיידבר */
+.history-sidebar {
+  flex: 1;
+
+  background: linear-gradient(180deg, #ff9a9e, #fad0c4);
+
+  padding: 25px;
+  border-radius: 25px;
+
+  color: #2b2b2b;
+
+  max-height: 90vh;
+  overflow-y: auto;
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* תוכן */
+.cars-content {
+  flex: 4;
+}
+
+/* כרטיס היסטוריה */
+.rent-card {
+  background: rgba(255,255,255,0.45);
+
+  padding: 16px;
+  margin-bottom: 12px;
+
+  border-radius: 16px;
+
+  font-size: 0.95rem;
+
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.4);
+}

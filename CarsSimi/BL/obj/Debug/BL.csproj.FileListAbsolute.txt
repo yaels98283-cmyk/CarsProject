@@ -1,0 +1,71 @@
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\CarsDB.mdf
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\CarsDB_log.ldf
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\BL.dll
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\BL.pdb
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\DAL.dll
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\EntityFramework.dll
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\DAL.pdb
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\DAL.dll.config
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\bin\Debug\EntityFramework.xml
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\obj\Debug\BL.csproj.Up2Date
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\obj\Debug\BL.dll
+T:\Group B\Angular\סימי לוין\CarsSimi\BL\obj\Debug\BL.pdb
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\CarsDB.mdf
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\CarsDB_log.ldf
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\BL.dll
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\BL.pdb
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\DAL.dll
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\EntityFramework.dll
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\DAL.pdb
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\DAL.dll.config
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\bin\Debug\EntityFramework.xml
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\obj\Debug\BL.csproj.CopyComplete
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\obj\Debug\BL.dll
+G:\בתיה חומרים\אנגולר\לבדיקה\CarsSimi\BL\obj\Debug\BL.pdb
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\CarsDB.mdf
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\CarsDB_log.ldf
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\BL.dll
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\BL.pdb
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\DAL.dll
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\EntityFramework.dll
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\DAL.pdb
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\DAL.dll.config
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\bin\Debug\EntityFramework.xml
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\obj\Debug\BL.csproj.Up2Date
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\obj\Debug\BL.dll
+T:\Group B\Angular\Teacher\לבדיקה\מתוקן\CarsSimi\BL\obj\Debug\BL.pdb
+G:\angular\CarsSimi\BL\bin\Debug\CarsDB.mdf
+G:\angular\CarsSimi\BL\bin\Debug\CarsDB_log.ldf
+G:\angular\CarsSimi\BL\bin\Debug\BL.dll
+G:\angular\CarsSimi\BL\bin\Debug\BL.pdb
+G:\angular\CarsSimi\BL\bin\Debug\DAL.dll
+G:\angular\CarsSimi\BL\bin\Debug\EntityFramework.dll
+G:\angular\CarsSimi\BL\bin\Debug\DAL.pdb
+G:\angular\CarsSimi\BL\bin\Debug\DAL.dll.config
+G:\angular\CarsSimi\BL\bin\Debug\EntityFramework.xml
+G:\angular\CarsSimi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+G:\angular\CarsSimi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\angular\CarsSimi\BL\obj\Debug\BL.csproj.CopyComplete
+G:\angular\CarsSimi\BL\obj\Debug\BL.dll
+G:\angular\CarsSimi\BL\obj\Debug\BL.pdb
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\BL.dll
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\BL.pdb
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\DAL.dll
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\EntityFramework.dll
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\DAL.pdb
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\DAL.dll.config
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\EntityFramework.xml
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\obj\Debug\BL.dll
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\obj\Debug\BL.pdb
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\BL.dll.config
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Downloads\CarsSimi\CarsSimi\BL\bin\Debug\EntityFramework.SqlServer.xml

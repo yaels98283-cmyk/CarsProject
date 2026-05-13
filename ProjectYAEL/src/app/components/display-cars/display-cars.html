@@ -1,0 +1,50 @@
+<div class="main-layout">
+
+  <aside class="history-sidebar">
+    <h3>ההיסטוריה שלי 🕒</h3>
+    
+    <div *ngIf="customerHistory.length === 0" class="no-history">
+      <p>עוד לא השכרת רכבים אצלנו...</p>
+    </div>
+    
+    <div class="history-item" *ngFor="let rent of customerHistory">
+      <div class="rent-card">
+        <p><strong> רכב קוד:</strong> {{rent.codeCar}}</p>
+        <p><strong> מ-:</strong> {{rent.startDate | date:'dd/MM/yyyy'}}</p>
+        <p><strong> עד-:</strong> {{rent.endDate | date:'dd/MM/yyyy'}}</p>
+        </div>
+      <hr class="separator">
+    </div>
+  </aside>
+
+  <section class="cars-content">
+    <div class="container">
+      <h2>רכבים זמינים להשכרה</h2>
+
+      <div class="filter-bar">
+        <select [(ngModel)]="selectedLevel" (change)="applyFilters()">
+          <option [ngValue]="null">כל הרמות</option>
+          <option value="1">בסיסי (1)</option>
+          <option value="2">יוקרה (2)</option>
+          <option value="3">פרימיום (3)</option>
+        </select>
+
+        <input type="number" [(ngModel)]="selectedSeats" placeholder="מספר מושבים" (input)="applyFilters()">
+        
+        <button (click)="resetFilters()">נקה סינון</button>
+      </div>
+
+      <div class="cars-grid">
+        <div class="car-card" *ngFor="let car of filteredCars">
+          <h3>רכב קוד: {{car.code}}</h3>
+          <p>רמה: {{car.level}}</p>
+          <p>מושבים: {{car.numSeats}}</p>
+          <p class="price">מחיר ליום: {{car.priceForDay}} ₪</p>
+          
+          <button class="btn-rent" (click)="onSelectCar(car)">בחר רכב זה</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
